@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+.container {
+    background: linear-gradient(to bottom left,#4277B0,#27A294);
+}
+.container3 {
+    background: linear-gradient(to bottom left,#4277B0,#27A294);
+}
+.container5 {
+    background: linear-gradient(180deg, #29A396, #357E98,#3A5480);
+}
+.logo1 {
+   float: left;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
