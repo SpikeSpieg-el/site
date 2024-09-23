@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    
+    font-family: 'Montserrat', sans-serif;
 }
 .container {
     background: linear-gradient(to bottom left,#4277B0,#27A294);
@@ -18,4 +20,37 @@ nav {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_right_footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: flex-end;
+}
+.text_logo_footer{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.text_logo_h{
+    display: flex;
+}
+.text1{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.text2{
+    font-size: 16px;
 }
