@@ -5,13 +5,42 @@ body{
 }
 .container {
     background: linear-gradient(to bottom left,#4277B0,#27A294);
+    
+}
+.container2{
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.img_icon{
+    width: 70px;
+}
+.card_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBA55C;
+    color: #fff;
+    box-shadow: 8px 10px 4px 0px #0177a9;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.card_icon_conter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .container3 {
     background: linear-gradient(to bottom left,#4277B0,#27A294);
+    padding-left: 80px;
+    padding-right: 80px;
 }
-.container5 {
-    background: linear-gradient(180deg, #29A396, #357E98,#3A5480);
-}
+
 .logo1 {
    float: left;
 }
@@ -80,12 +109,14 @@ footer{
     color: #2d2626a2;
 }
 .container5{
+    background: linear-gradient(180deg, #29A396, #357E98,#3A5480);
     display: flex;
     flex-direction: row;
     padding-left: 25px;
     padding-right: 25px;
     align-items: flex-end;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .text5_1 {
     font-family: 'Montserrat';
@@ -153,8 +184,8 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    flex-wrap: wrap;
+    
    
 }
 .card{
@@ -170,11 +201,54 @@ footer{
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 20px;
-    margin-right: 40px;
+    
     
 }
 .card_img{
-    width: 250px;
+    width: 200px;   
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 36px;
+}
+.button_sub{
+font-size: medium;
+    color: #fff;
+    padding: 24px;
+    border-radius: 60px;
+    border: none;
+    box-shadow: 3px 5px 0px 0px #635075;
+    background-color: #EBA55C;
+    font-weight: 700;
+    width: 350px;
+}
+.text_3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
     
+}
+.img_3_cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
     
+}
+
+.img_3_2{
+    width: 320px;
+   
+}
+.img_3_1{
+    width: 700px;
+    
+}
+.map{
+    display: flex;
 }
