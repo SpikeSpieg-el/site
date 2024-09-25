@@ -17,6 +17,7 @@ body{
     padding-right: 80px;
 
 }
+
 .img_icon{
     width: 70px;
 }
@@ -36,8 +37,10 @@ body{
 .card_icon_conter{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
 }
 .container3 {
     background: linear-gradient(to bottom left,#4277B0,#27A294);
@@ -243,7 +246,7 @@ font-size: medium;
 .img_3_cont{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
     padding-bottom: 80px;
     
@@ -420,4 +423,237 @@ form button {
 button:hover {
     background-color: #2980b9;
     transform: matrix(5px);
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .img_sert {
+        width: 360px;
+        margin-bottom: 164px;
+        transform: rotate(354deg);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+    .img_sert {
+        padding-top: 36px;
+        width: 360px;
+        margin-bottom: 10px;
+        transform: rotate(354deg);
+    }
+}
+
+
+/* Стили для планшетов (ширина от 768px до 1024px) */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .container, .container3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .container5{
+    padding-left: 10px;
+        padding-right: 10px;
+
+    display: flex;
+    flex-direction: row;
+    
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    .container5_text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        margin-top: 50px;
+        padding-right: 14px;
+        margin-bottom: 80px;
+        font-weight: bolder;
+    }
+    
+
+    .logo1 img {
+        width: 80px;
+    }
+
+    .img_second {
+        width: 400px;
+    }
+
+    .text1_2 {
+        width: 400px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+
+    .card_icon {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img_3_1 {
+        width: 60%;
+    }
+
+    .img_3_2 {
+        width: 250px;
+    }
+
+    .card {
+        width: 180px;
+        padding: 20px;
+    }
+}
+
+/* Стили для мобильных устройств (ширина до 768px) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .text_1_right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        padding-right: 0px;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    
+    }
+    .art_int_1 {
+        text-align: center;
+    }
+    
+
+    .container, .container2, .container3, .container5 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo1 img {
+        width: 60px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .text_img_second {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_second {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .text1_2 {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .card_item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .img_3_2 {
+        width: 30%;
+        
+    
+    }
+    .img_3_1 {
+        width: 60%;
+        
+    }
+
+    .container5 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_sert {
+        padding-top: 36px;
+        width: 300px;
+        margin-bottom: 5px;
+    }
+    .container5_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        padding-right: 25px;
+        margin-bottom: 80px;
+        font-weight: bolder;
+    }
+    .text5_2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        width: 350px;
+        margin-bottom: 25px;
+    }
+
+    .button_узнать, .button_sub {
+        width: 200px;
+    }
+}
+
+/* Стили для небольших экранов (до 480px, мобильные устройства) */
+@media only screen and (max-width: 480px) {
+    .container, .container2, .container3, .container5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo1 img {
+        width: 50px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .text1_2 {
+        font-size: 14px;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img_sert {
+        width: 200px;
+    }
+
+    .text5_1 {
+        font-size: 24px;
+    }
+
+    .text5_2 {
+        font-size: 16px;
+    }
 }
